@@ -1,4 +1,4 @@
-package com.najibun.nim175410171.pertemuan11
+package com.najibun.nim175410171.AppBaret21
 
 import android.app.Activity
 import android.content.Intent
@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.najibun.nim175410171.pertemuan11.catatan.Note
+import com.najibun.nim175410171.AppBaret21.catatan.Note
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

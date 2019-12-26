@@ -1,4 +1,4 @@
-package com.najibun.nim175410171.pertemuan11
+package com.najibun.nim175410171.AppBaret21
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.najibun.nim175410171.pertemuan11.catatan.Note
+import com.najibun.nim175410171.AppBaret21.catatan.Note
 import kotlinx.android.synthetic.main.note_item.view.*
 
 class NoteAdapter : ListAdapter<Note, NoteAdapter.NoteHolder>(DIFF_CALLBACK) {

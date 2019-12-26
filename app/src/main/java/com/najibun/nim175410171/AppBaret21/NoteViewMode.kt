@@ -1,10 +1,10 @@
-package com.najibun.nim175410171.pertemuan11
+package com.najibun.nim175410171.AppBaret21
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import com.najibun.nim175410171.pertemuan11.catatan.Note
-import com.najibun.nim175410171.pertemuan11.catatan.NoteRepository
+import com.najibun.nim175410171.AppBaret21.catatan.Note
+import com.najibun.nim175410171.AppBaret21.catatan.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
     private var repository: NoteRepository =

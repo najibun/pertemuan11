@@ -1,9 +1,7 @@
-package com.najibun.nim175410171.pertemuan11.catatan
+package com.najibun.nim175410171.AppBaret21.catatan
 
 import androidx.lifecycle.LiveData
-import androidx.recyclerview.widget.ListAdapter
 import androidx.room.*
-import com.najibun.nim175410171.pertemuan11.R
 
 @Dao
 interface NoteDao {

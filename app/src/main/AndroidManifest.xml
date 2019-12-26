@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.najibun.nim175410171.pertemuan11">
+    package="com.najibun.nim175410171.AppBaret21">
 
     <application
         android:allowBackup="true"
@@ -9,20 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:launchMode="singleTop">
+        <activity android:name="com.najibun.nim175410171.AppBaret21.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.najibun.nim175410171.AppBaret21.MainActivity"
+            android:launchMode="singleTop">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-
-        <activity android:name=".AddEditNoteActivity"
-            android:parentActivityName=".MainActivity">
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
-
+        <activity
+            android:name="com.najibun.nim175410171.AppBaret21.AddEditNoteActivity"
+            android:parentActivityName="com.najibun.nim175410171.AppBaret21.MainActivity"></activity>
     </application>
 
 </manifest>
